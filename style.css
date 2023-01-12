@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #473aaa;
+  }
+  
+  .shadow{
+    background-color: #3d3293;
+    height: 220px;
+    width: 150px;
+    border-radius: 130% 130% 200% 60% / 110% 90% 150% 60%;
+    position: fixed;
+    transform: translate(82px, -106px) rotate(20deg);
+    right: 50%;
+    top: 50%;
+  }
+  .mango{
+    background: linear-gradient(#fc9541, #6afc41 200%);
+    content: "";
+    height: 220px;
+    width: 150px;
+    border-radius: 130% 130% 200% 60% / 110% 90% 150% 60%;
+    position: fixed;
+    transform: translate(50%, -50%) rotate(20deg);
+    right: 50%;
+    top: 50%;
+    box-shadow: inset 10px 10px 10px  #ffdabf, inset -10px -10px 30px #563b26;
+  }
+
+  .leaf{
+    background: linear-gradient(#297f23 10px, #7bb376);
+    height: 80px;
+    width: 60px;
+    border-radius: 1000% 100% 700% 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(40px, -170px) rotate(45deg);
+    box-shadow: 6px 0px #3d3293, inset 1px 1px 10px  #abffbd, inset -1px -1px 5px #072005;
+  }
+
+  .stem{
+    background: linear-gradient(#520806 10px, #85410d);
+    height: 36px;
+    width: 10px;
+    border-radius: 40% 40% 10% 10%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(12px, -140px) rotate(10deg);
+    box-shadow: inset 1px 1px 5px  #2d1707;
+  }
+  .eye1{
+    background-color: #072005;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(30px, -35px);
+  }
+  .eye2{
+    background-color: #072005;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10px, -35px);
+  }
+  .mouth{
+    background-color: #520806;
+    height: 16px;
+    width: 26px;
+    border-radius: 40% 40% 100% 100% ;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    box-shadow: inset -5px 5px 5px #072005;
+  }
+  h1{
+    color: #e5c141;
+    font-style: italic;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-60px, 150px);
+  }
